@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>quy đổi tỷ giá</title>
+            <link rel="stylesheet" type="text/css" href= "currency.css" />
+            <script type="text/javascript" src="currency.js" ></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title"> Quy đổi tỷ giá </h1>
+            <div class="chose_container">
+                <div>
+                    <h3 id="result"></h3>
+                </div>
+                <input type="text" id="amount" autocomplete="off"/>
+                <button onclick="convertToVnd();">
+                    Chuyển đổi
+                </button>
+                <div class='chose_area'>
+                    <div class="chosse_radio">
+                        <input type="radio" name="currency" value="USD" checked>
+                        <label>USD</label>
+                    </div>  
+                    <div class="chosse_radio">
+                        <input type="radio" name="currency" value="EUR">
+                        <label>EUR</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
